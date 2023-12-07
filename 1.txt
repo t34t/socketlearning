@@ -4,3 +4,5 @@ echo "# testproject" >> README.md
   265  git commit -m "first commit"
   266  git remote add origin https://github.com/t34t/testproject.git
   267  git push -u origin main
+
+add ssl connect pem

@@ -1,3 +1,4 @@
+//./myclient1 127.0.0.1 7838 client.crt client_rsa_private.pem.unsecure
 #include <stdio.h>
 #include <string.h>
 #include <errno.h>
@@ -136,7 +137,7 @@ int main(int argc, char **argv)
         goto finish;
     }
     bzero(buffer, MAXBUF + 1);
-    strcpy(buffer, "from client->server");
+    strcpy(buffer, "from client->server helloworld!");
     /* 发消息给服务器 */
     len = SSL_write(ssl, buffer, strlen(buffer));
     if (len < 0)

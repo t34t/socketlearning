@@ -38,3 +38,5 @@
 4. 信号驱动(signal driven I/O (SIGIO))
 5. 异步I/O(asynchronous I/O)
 ```
+
+主要对I/O复用进行学习

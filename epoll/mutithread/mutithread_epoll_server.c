@@ -148,12 +148,11 @@ int main(int argc, const char *argv[])
         int num = epoll_wait(epfd, evs, size, -1);
         printf("num = %d\n", num);
         pthread_t tid;
-        SocketInfo * info =  (SocketInfo*)malloc(sizeof(SocketInfo));
-
+    
         for (int i = 0; i < num; i++)
         {
             int fd = evs[i].data.fd;
-
+            SocketInfo * info =  (SocketInfo*)malloc(sizeof(SocketInfo));
             info->fd = fd;
             info->epfd = epfd;
 

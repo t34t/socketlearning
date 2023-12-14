@@ -80,9 +80,10 @@ void *communication(void *arg)
         for (int i = 0; i < len; i++)
         {
             buf[i] = toupper(buf[i]);
-            strncat(temp+strlen(temp),buf,len);
+            
         }
         write(STDOUT_FILENO, buf, len);
+        strncat(temp+strlen(temp),buf,len);
 /*
         ret = send(fd, buf, strlen(buf) + 1, 0);
         if (ret == -1)

@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/river/Documents/socketlearning/epoll/mutithread",
-      "program": "/Users/river/Documents/socketlearning/epoll/mutithread/build/Debug/outDebug"
+      "cwd": "/Users/river/Documents/socketlearning/selectmode/linux",
+      "program": "/Users/river/Documents/socketlearning/selectmode/linux/build/Debug/outDebug"
     }
   ]
 }

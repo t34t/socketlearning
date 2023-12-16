@@ -44,7 +44,7 @@ int main(int argc,const char * argv[])
         usleep(100000); 
     }
 
-    printf("------over-------");
+    printf("------program over-------");
     close(fd);
     
     return 0;

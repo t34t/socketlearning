@@ -23,5 +23,5 @@ int epoll_ctl(int epfd, int op, int fd, struct epoll_event *event);
 // 检测epoll树中是否有就绪的文件描述符
 int epoll_wait(int epfd, struct epoll_event * events, int maxevents, int timeout);
 ```
-
+epoll + 多线程
 Ref: https://subingwen.cn/linux/epoll/
